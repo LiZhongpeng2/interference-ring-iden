@@ -17,9 +17,4 @@ Or use the Python modules in `code/`:
 python code/main.py
 ```
 
-## Requirements
-- OpenCV
-- NumPy
-- Matplotlib
-
 See `code/requirements.txt` for complete dependencies.

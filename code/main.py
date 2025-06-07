@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-import finder
+import code.finder as finder
 from matplotlib import pyplot as plt
 
 #change to your own image
@@ -28,7 +28,6 @@ for i in range(1, num_labels):
 
 #100,2500 -> 100,None
 x0, y0 = finder.find_circle_center_voting(clean,100)
-
 
 #results visuable
 output = img.copy()
